@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<form action="informacao.html" method="GET">
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
+        <label for="address">Endereço:</label>
+        <input type="text" id="address" name="address">
+        <label for="city">Cidade:</label>
+        <input type="text" id="city" name="city">
+        <label for="state">Estado:</label>
+        <select id="state" name="state">
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>Natureza do cargo</label>
+        <input type="radio" id="Gerência" name="job" value="Gerência">
+        <for="gerencia">Gerência</for>
+        <input type="radio" id="Financeiro" name="job" value="Financeiro">
+        <for="financeiro">Financeiro</for>
+        <input type="radio" id="Recepção" name="job" value="Recepção">
+        <for="recepção">Recepção</for>
+        <input type="radio" id="Administrativo" name="job" value="Administrativo">
+        <for="administrativo">Administrativo</for>
+        <input type="radio" id="Jurídico" name="job" value="Jurídico">
+        <for="juridico">Jurídico</for><br>
+        <br>
+
+      <label>Área(s) de interesse</label><br>
+      <input type="checkbox" id="computing" name="job" value="computing">
+      <for="computing">Computação</for>
+      <input type="checkbox" id="biology" name="job" value="biology">
+      <for="biology">Biologia</for>
+      <input type="checkbox" id="environment" name="job" value="environment">
+      <for="environment">Meio Ambiente</for>
+      <input type="checkbox" id="engineering" name="job" value="engineering">
+      <for="engineering">Engenharia</for>
+
+      <input type="checkbox" id="history" name="job" value="history">
+      <for="history">História</for><br>
+<br>
+        <label for="description">Mini-Currículo:</label><br>
+        <textarea id="description" name="description"></textarea>
+    </fieldset>
+
+    <button type="submit">Confirmar</button>
+    <button type="reset">Limpar página</button>
+</form>
+
+</body>
+</html>
