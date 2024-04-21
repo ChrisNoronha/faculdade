@@ -4,7 +4,7 @@ O sistema simula o funcionamento de várias entidades financeiras interagindo en
 
 Execução do Programa
 
-Para executar o programa, basta compilar todos os arquivos Java e executar o arquivo Main.java. Certifique-se de ter um ambiente de desenvolvimento Java configurado corretamente.
+Para executar o programa, basta compilar todos os arquivos Java e executar o arquivo Main.java. Certifique-se de ter um ambiente de desenvolvimento Java configurado corretamente. Java 1.7.0.3
 
 Contribuições
 
